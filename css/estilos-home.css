@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(../imagenes/fondo6.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(10, 8, 7, 0.616);
+}
+
+nav {
+    background-color: transparent;
+}
+
+#contenidio-pagina-inicio {
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#contenidio-pagina-inicio h1 {
+    font-size: 3.5em;
+    margin: 20px 0 13px;
+}
+
+#contenidio-pagina-inicio h3 {
+    font-style: calibri;
+}
+
+#contenidio-pagina-inicio .container p {
+    font-family: "Merriweather", serif;
+    font-size: 0.8em;
+    line-height: 2;
+}
+
+#contenidio-pagina-inicio button {
+    padding: 15px 40px;
+    margin: 2rem auto;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #e2b511;
+    font-weight: 600;
+    transition: transform 100ms linear;
+}
+
+#contenidio-pagina-inicio button:hover {
+    background-color: #ebbc15;
+    transform: scale(1.02);
+}
+
+@media (width <= 600px) {
+    #contenidio-pagina-inicio h1 {
+        font-size: 2.5em;
+    }
+}
+
+@media (width <= 815px) {
+    nav {
+        background-color: #21252985;
+    }
+}
