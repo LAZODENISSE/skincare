@@ -36,6 +36,7 @@ p {
     padding: 15px;
     text-align: center;
     transition: transform 0.3s ease;
+    display: flex;
 }
 
 .card:hover {
@@ -59,7 +60,7 @@ p {
 .price {
     font-weight: bold;
     color: #ffca28; 
-    margin-top: 10px;
+    margin-top: auto;
 }
 
 /* Botones */
@@ -71,8 +72,7 @@ button.add-to-cart {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: auto;
-    
+
 }
 
 button.add-to-cart:hover {
@@ -176,4 +176,8 @@ button.add-to-cart:hover {
         font-size: 0.9rem;
         padding: 8px;
     }
+}
+
+.card .alin {
+    margin-top: auto;
 }
