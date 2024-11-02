@@ -71,7 +71,8 @@ button.add-to-cart {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 10px;
+    margin-top: auto;
+    
 }
 
 button.add-to-cart:hover {
