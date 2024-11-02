@@ -1,0 +1,121 @@
+small { 
+    display: none;
+}
+
+.containerFormulario {
+    background-image: url(../imagenes/world-map-actu2.png);
+    background-color: #d7c7f4; /* Fondo morado pastel */
+    padding: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 85%;
+}
+
+.title {
+    color: #6b4fad; /* Morado oscuro */
+    text-align: center;
+}
+
+.title h2 {
+    margin: 0;
+    font-family: Candara;
+    font-size: 34px;
+}
+
+.description {
+    color: #a092b5; /* Morado claro */
+    font-size: 14px;
+    margin: 10px 0 20px;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+form td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #b9a3e3; /* Borde morado claro */
+    background: #f3eafa; /* Fondo blanco con tono morado suave */
+    color: #6b4fad; /* Texto morado oscuro */
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 200px;
+    resize: none;
+}
+
+.button {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button input[type="submit"] {
+    background-color: #ffeb99; /* Amarillo pastel */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #6b4fad; /* Texto morado oscuro */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button input[type="submit"]:hover {
+    background-color: #ffe066; /* Amarillo pastel más intenso */
+}
+
+/* Correcciones a la imagen de fondo en pantallas más pequeñas */
+@media only screen and (max-width: 800px) {
+    .containerFormulario {
+        background-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .containerFormulario {
+        background-size: 120%;
+    }
+}
+
+/* Punto de quiebre formulario responsivo */
+@media (width <= 767px) {
+    .form-group {
+        padding: 8px 0 8px;
+    }
+
+    .row > * {
+        padding: 0;
+    }
+
+    .form-group textarea {
+        margin-top: 10px;
+    }
+}
+
+/* Estilo para el mensaje de confirmación de envío */
+.confirmation {
+    color: #6b4fad; /* Morado oscuro */
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}

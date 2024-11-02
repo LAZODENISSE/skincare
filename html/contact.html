@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipo</title>
+    <title>Contacto</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -29,7 +29,7 @@
         <nav>
             <a href="../index.html" class="logotipo">Radiant Skin</a>
             <ul class="barra-navegacion">
-                <li><a href="services.html">Servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="team.html" >Equipo</a></li>
                 <li><a href="" class="active">Contacto</a></li>
@@ -40,8 +40,58 @@
     <main>
 
     <!--INICIO CONTENIDO-->
+    
+    <div class="containerFormulario">
+        <div class="title">
+            <h2>CONTACTANOS</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur</p>
+        </div>
+    
+        <form id="contactForm" onsubmit="return handleSubmit(event)">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <table class="w-100 h-100">
+                            <tr>
+                                <td>
+                                    <div class="form-group">
+                                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-group">
+                                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="form-group">
+                                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-group">
+                        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="button">
+                <input type="submit" value="ENVIAR MENSAJE" class="mt-2">
+            </div>
+        </form>
+    
+        <!-- Contenedor del mensaje de enviado -->
+        <p id="confirmationMessage" class="confirmation" style="display: none;">¡Mensaje enviado!</p>
+    </div>
+    
+    
 
- 
 
     <!--FIN CONTENIDO-->
     </main>

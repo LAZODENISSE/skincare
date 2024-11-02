@@ -19,6 +19,7 @@
     <!-- Hoja de estilos -->
     <link rel="stylesheet" href="../css/estilos-generales.css">
     <link rel="stylesheet" href="../css/estilos-productos.css">
+    <script src="../Javascript/script.js" defer></script>
 
     <!-- JavaScript -->
     <script defer src="../Javascript/hamb-menu.js"></script>
@@ -28,7 +29,7 @@
         <nav>
             <a href="../index.html" class="logotipo">Radiant Skin</a>
             <ul class="barra-navegacion">
-                <li><a href="services.html">Servicios</a></li>
+                <li><a href="html/blog.html">Blog</a></li> 
                 <li><a href="" class="active">Productos</a></li>
                 <li><a href="team.html">Equipo</a></li>
                 <li><a href="contact.html">Contacto</a></li>
@@ -38,6 +39,63 @@
     </header>
     <main>
     <!--INICIO CONTENIDO-->
+
+    <h1>Productos de Skincare</h1>
+    <p id="parrafo">Encuentra aquí los mejores productos para el cuidado de tu piel.</p>
+    <div class="container">
+        <div class="card">
+            <img src="../imagenes/crema-hidratante.jpg" alt="Crema Hidratante">
+            <h4>Crema Hidratante</h4>
+            <p>Hidrata y suaviza la piel con ingredientes naturales.</p>
+            <p class="price">$15.00</p>
+            <button class="add-to-cart" data-product-id="1">Agregar al Carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="../imagenes/serumVitaminaC.jpg" alt="Serum de Vitamina C">
+            <h4>Serum de Vitamina C</h4>
+            <p>Brinda luminosidad y ayuda a reducir manchas.</p>
+            <p class="price">$25.00</p>
+            <button class="add-to-cart" data-product-id="2">Agregar al Carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="../imagenes/limpiadorFacial.jpg" alt="Limpiador Facial">
+            <h4>Limpiador Facial</h4>
+            <p>Elimina impurezas sin resecar la piel.</p>
+            <p class="price">$10.00</p>
+            <button class="add-to-cart" data-product-id="3">Agregar al Carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="../imagenes/protectorSolar.jpg" alt="Protector Solar">
+            <h4>Protector Solar</h4>
+            <p>Protección solar de amplio espectro SPF 50.</p>
+            <p class="price">$18.00</p>
+            <button class="add-to-cart" data-product-id="4">Agregar al Carrito</button>
+        </div>
+
+        <div class="card">
+            <img src="../imagenes/tonicoFacial.jfif" alt="Tónico Facial">
+            <h4>Tónico Facial</h4>
+            <p>Equilibra el pH y refresca la piel.</p>
+            <p class="price">$12.00</p>
+            <button class="add-to-cart" data-product-id="5">Agregar al Carrito</button>
+        </div>
+    </div>
+
+    <!-- Carrito de compras -->
+    <div id="cart">
+        <h2>Carrito de Compras</h2>
+        <!-- Aquí se mostrarán los productos en el carrito -->
+        <div class="total">Total: $0.00</div>
+        <button class="checkout-button">Comprar</button>
+    </div>
+    
+    <!-- Enlace a los archivos CSS y JS -->
+    <script src="scripts.js" defer></script>
+    
+
 
 
 

@@ -2,6 +2,10 @@ main {
     min-height: calc(90vh);
 }
 
+p {
+    font-style: arial;
+    font-size: medium;
+}
 /* Barra navegacion */
 nav {
     position: relative;
@@ -12,6 +16,7 @@ nav {
     padding: 5px 7% 5px 5%;
     font-family: "Segoe UI", "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif !important;
 }
+
 
 ul.barra-navegacion {
     list-style: none;
