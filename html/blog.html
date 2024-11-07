@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
+    <title>Radiant Skin - Blog</title>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -12,15 +11,15 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900&display=swap" rel="stylesheet">
     
     <!-- Iconos -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
 
     <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="../css/estilos-generales.css">
     <link rel="stylesheet" href="../css/estilos-blog.css">
-    <link rel="stylesheet" href="../css/estilos-generales.css"
+    <script src="../Javascript/script.js" defer></script>
 
     <!-- JavaScript -->
     <script defer src="../Javascript/hamb-menu.js"></script>
@@ -30,7 +29,7 @@
         <nav>
             <a href="../index.html" class="logotipo">Radiant Skin</a>
             <ul class="barra-navegacion">
-                <li><a href="" class="active">Blog</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li> 
                 <li><a href="productos.html">Productos</a></li>
                 <li><a href="team.html">Equipo</a></li>
                 <li><a href="contact.html">Contacto</a></li>
@@ -38,22 +37,118 @@
             <button class="hamb-menu" onclick="esconder()"><i class='bx bx-menu'></i></button>
         </nav>
     </header>
-    <main>
-    <!--INICIO CONTENIDO-->
+        <!--INICIO BLOG-->
 
+        <section>
+            <div class="text-center mb-4">
+                <h1 class="mb-3">¡Bienvenidos a Radiant Skin!</h1>
+                <p id="parrafo">En este espacio, queremos ayudarte a descubrir los secretos para lograr una piel saludable y radiante.</p>
+            </div>
+            
+            <img src="../imagenes/Cuidado de la piel.png" class="img-fluid mb-4" alt="Cuidado de la piel">
+            
+            <h2 class="mt-3 text-center">¿Por qué es importante cuidar nuestra piel?</h2>
+            
+            <div class="my-4 text-start mx-auto" style="max-width: 900px;">
+                <p>En Radiant Skin, creemos firmemente que el cuidado de la piel va más allá de la apariencia; es esencial para nuestra salud en general. Nuestra piel actúa como la primera línea de defensa contra el entorno, y mantenerla en buen estado es crucial para nuestro bienestar. A continuación, te presentamos varias razones detalladas sobre por qué el cuidado de la piel es fundamental:</p> 
+        
+                <h4>1. Protección contra el Ambiente</h4>
+                <p>Nuestra piel es la barrera principal que nos protege contra elementos externos como la contaminación, los rayos UV, bacterias y otras toxinas. Sin un cuidado adecuado, esta barrera puede debilitarse, haciéndonos más susceptibles a infecciones, enfermedades y otros daños ambientales.</p>
+        
+                <h4>2. Prevención del Envejecimiento Prematuro</h4>
+                <p>El cuidado regular de la piel, incluyendo el uso de protector solar y productos antioxidantes, puede prevenir los signos de envejecimiento prematuro como arrugas, manchas y flacidez. La exposición prolongada a los rayos UV sin protección puede acelerar el proceso de envejecimiento, por lo que es vital protegerse diariamente.</p>
+        
+                <h4>3. Mantenimiento de la Hidratación</h4>
+                <p>La piel deshidratada puede llevar a una serie de problemas, incluyendo la sequedad, irritación y la aparición de líneas finas. Utilizar humectantes adecuados ayuda a mantener la piel hidratada, flexible y saludable. Esto es especialmente importante en climas secos o durante el invierno.</p>
+        
+                <h4>4. Control de Problemas Dermatológicos</h4>
+                <p>Una rutina de cuidado de la piel puede ayudar a controlar y prevenir problemas dermatológicos comunes como el acné, la rosácea, la dermatitis y la psoriasis. Usar productos específicos y seguir una rutina adecuada puede minimizar estos problemas y mantener la piel en condiciones óptimas.</p>
+        
+                <h4>5. Mejora de la Salud General</h4>
+                <p>La piel refleja nuestra salud interna. Una piel bien cuidada puede ser un indicador de un cuerpo sano y bien equilibrado. Además, mantener la piel limpia y libre de toxinas puede ayudar a prevenir la aparición de enfermedades más graves.</p>
+            </div>
+
+        </section>
     
+            <main class="container mt-5">
+   
+    <div class="container">
+            <div class="card">
+                <h2>¿Qué encontrarás en Radiant Skin?</h2>
+                <p>En nuestro blog descubrirás tips, rutinas de cuidado y consejos sobre ingredientes para que cuides tu piel de manera efectiva.</p>
+            </div>
+        </div>
 
-    <!--FIN CONTENIDO-->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="text-center">Conoce tu Tipo de Piel</h2>
+                <img src="../imagenes/tipo-piel.jpg" class="img-fluid mb-3" alt="Tipos de piel">
+                <ul>
+                    <li><strong>Piel Normal:</strong></li>
+                    <li><strong>Piel Seca:</strong> </li>
+                    <li><strong>Piel Grasa:</strong> </li>
+                    <li><strong>Piel Mixta:</strong> </li>
+                    <li><strong>Piel Sensible:</strong> </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sección: Rutina Básica de Skincare -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="text-center">Pasos Básicos de una Rutina de Skincare</h2>
+                <img src="../imagenes/rutina-basica.jpg" class="img-fluid mb-3" alt="Rutina de skincare">
+                <ul>
+                    <li><strong>Limpieza:</strong> </li>
+                    <li><strong>Tonificación:</strong></li>
+                    <li><strong>Hidratación:</strong></li>
+                    <li><strong>Protección Solar:</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sección: Errores Comunes -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2 class="text-center">Errores Comunes en el Cuidado de la Piel</h2>
+                <img src="../imagenes/Errores Comunes en el Cuidado de la Piel.webp" class="img-fluid mb-3" alt="Errores en skincare">
+                <ul>
+                    <li>No usar protector solar.</li>
+                    <li>Dormir con maquillaje.</li>
+                    <li>No hidratar la piel grasa correctamente.</li>
+                    <li>Usar demasiados productos al mismo tiempo</li>
+                </ul>
+            </div>
+        </div>
+<br>
+
+<div>
+
+        <h3 class="text-center">¿Tienes algún producto favorito o dudas?</h3>
+        <p>Comparte tus experiencias o preguntas sobre lo que te interesa aprender en el mundo del cuidado de la piel.</p>
+        
+        <!-- Formulario de comentario -->
+        <form action="#" method="post">
+            <textarea class="form-control mb-3" placeholder="Escribe tu comentario aquí..." rows="4" required></textarea>
+            <button type="submit" class="btn btn-primary">Enviar Comentario</button>
+        </form>
+    </div>
+</div>
+
+        </div>
+
     </main>
-
+   
     <div class="btn-wsp">
-        <a href="https://api.whatsapp.com/send?phone=68269874" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        <a href="https://api.whatsapp.com/send?phone=68269874" target="_blank">
+            <i class='bx bxl-whatsapp'></i>
+        </a>
     </div>
 
     <footer>
-        <div class="container">
+        <div class="container text-center">
             <div class="copyright">
-                <a href="">Copyright &copy; Your Website 2024</a>
+                <a href="">Copyright &copy; Radiant Skin 2024</a>
             </div>
 
             <div class="footer-socials">
@@ -64,12 +159,12 @@
 
             <div class="terminos-privacidad">
                 <a href="">Política de Privacidad</a>&nbsp;&nbsp;
-                <a href="">Terminos de Uso</a>
+                <a href="">Términos de Uso</a>
             </div>
         </div>
     </footer>
+
 </body>
 </html>
-=======
 
->>>>>>> 4f0f208ec4a0cb82077e603777850b801eb6b2f7
+       
