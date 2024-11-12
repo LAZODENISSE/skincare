@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-image: url(../imagenes/fondo6.webp);
+    background-image: url(../imagenes/fondoWEB.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -13,28 +13,39 @@ nav {
     background-color: transparent;
 }
 
-#contenidio-pagina-inicio {
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-}
+.container {
+    display: flex;
+    padding: 30px;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .content {
+    width: 50%;
+    padding: 20px;
+    
+  }
 
-#contenidio-pagina-inicio h1 {
-    font-size: 3.5em;
-    margin: 20px 0 13px;
-}
+  h1 {
+    font-size: 3rem;
+    color: #f7a7a7; /* Gris oscuro para contraste */
+    font-family: 'Montserrat', sans-serif; /* Elige una fuente legible */
+  }
+  
+  h3 {
+    font-size: 1.8rem;
+    color: #fd8c8c; /* Gris más claro */
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ffeeee;
+    text-align: justify; /* Justifica el texto para un aspecto más limpio */
+  }
 
-#contenidio-pagina-inicio h3 {
-    font-style: calibri;
-}
-
-#contenidio-pagina-inicio .container p {
-    font-family: "Merriweather", serif;
-    font-size: 0.8em;
-    line-height: 2;
-}
-
-#contenidio-pagina-inicio button {
+  button {
     padding: 15px 40px;
     margin: 2rem auto;
     border: none;
@@ -43,21 +54,15 @@ nav {
     background-color: #e2b511;
     font-weight: 600;
     transition: transform 100ms linear;
-}
+    
+  }
 
-#contenidio-pagina-inicio button:hover {
+  button:hover {
     background-color: #ebbc15;
     transform: scale(1.02);
 }
 
-@media (width <= 600px) {
-    #contenidio-pagina-inicio h1 {
-        font-size: 2.5em;
-    }
-}
 
-@media (width <= 815px) {
-    nav {
-        background-color: #21252985;
-    }
-}
+
+
+

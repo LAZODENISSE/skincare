@@ -65,3 +65,10 @@ checkoutButton.addEventListener("click", () => {
     }
     renderCart();
 });
+
+// Alternar visibilidad del carrito
+document.getElementById("toggle-cart").addEventListener("click", function() {
+    const cart = document.getElementById("cart");
+    cart.classList.toggle("visible"); // Alterna la clase visible
+});
+
