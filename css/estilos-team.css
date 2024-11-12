@@ -24,7 +24,8 @@ body {
     width: 220px;
     height: 220px;
     border: 10px solid #d1c4e9; 
-    border-radius: 100%;
+    border-radius: 50%;
+    object-fit: cover;
     transition: transform 300ms ease-in-out;
 }
 
